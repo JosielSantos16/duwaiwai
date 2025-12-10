@@ -2,12 +2,17 @@
 
 # dependencies
 node_modules/
+pnpm-lock.yaml
+.pnp.*
 
 # Expo
 .expo/
+.expo-shared/
 dist/
 web-build/
 expo-env.d.ts
+.cache/
+.parcel-cache/
 
 # Native
 .kotlin/
@@ -25,13 +30,29 @@ expo-env.d.ts
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
 
 # macOS
 .DS_Store
 *.pem
 
+# Windows
+Thumbs.db
+ehthumbs.db
+
 # local env files
 .env*.local
+.env
+
+# coverage / reports
+coverage/
+.nyc_output/
+
+# editors / tooling
+.vscode/
+.idea/
 
 # typescript
 *.tsbuildinfo
@@ -41,3 +62,5 @@ app-example
 # generated native folders
 /ios
 /android
+
+# package manager output
