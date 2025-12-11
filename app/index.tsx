@@ -7,7 +7,7 @@ export default function Home() {
       <main className="hello-card">
         <span className="hello-badge">TypeScript + CSS</span>
         <h1>Hello, World!</h1>
-        <p className="hello-subtitle">Base pronta para crescer.</p>
+        <p className="hello-subtitle">Adria Lima</p>
       </main>
     </div>
   );
