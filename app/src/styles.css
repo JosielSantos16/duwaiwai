@@ -1,9 +1,9 @@
 :root {
   --bg: radial-gradient(circle at 20% 20%, #111827 0%, #0b1220 35%, #05080f 100%);
-  --panel: #2f0ab6;
-  --border: rgba(255, 255, 255, 0.08);
-  --text-primary: #f8fafc;
-  --text-secondary: #17e043;
+  --panel: #0537ac;
+  --border: rgba(236, 59, 59, 0.08);
+  --text-primary: #d5fa6f;
+  --text-secondary: #cbd5e1;
   --accent: #38bdf8;
   --accent-soft: rgba(56, 189, 248, 0.12);
   font-family: "Segoe UI", "Helvetica Neue", system-ui, -apple-system, sans-serif;
