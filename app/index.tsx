@@ -6,8 +6,8 @@ export default function Home() {
     <div className="page">
       <main className="hello-card">
         <span className="hello-badge">TypeScript + CSS</span>
-        <h1>Hello, World!</h1>
-        <p className="hello-subtitle">Base pronta para crescer.</p>
+        <h1>i am a good dev!</h1>
+        <p className="hello-subtitle">victor.</p>
       </main>
     </div>
   );
