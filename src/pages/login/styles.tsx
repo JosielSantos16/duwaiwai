@@ -3,44 +3,45 @@ import styled from 'styled-components/native';
 export const ConteudoPai = styled.SafeAreaView`
   flex: 1;
   background-color: #ffffff;
-  padding: 20px;
+  padding: 5%;
   align-items: center;
 `;
 
 export const AreaDaLogo = styled.View`
   align-items: center;
-  margin-top: 40px;
-  margin-bottom: 30px;
+  margin-top: 6%;
+  margin-bottom: 4%;
 `;
 
 export const ImagemLogo = styled.Image`
-  width: 280px;
-  height: 180px;
+  width: 70%;
+  aspect-ratio: 1.55;
+  max-width: 320px;
 `;
 
 export const Subtitulo = styled.Text`
   font-size: 22px;
   font-weight: bold;
   color: #000;
-  margin-top: 10px;
+  margin-top: 2%;
 `;
 
 export const TextoPequeno = styled.Text`
   font-size: 16px;
   color: #888;
-  margin-bottom: 25px;
+  margin-bottom: 4%;
 `;
 
 export const CaixaDeEntrada = styled.View`
   width: 100%;
-  height: 60px;
+  height: 56px;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 4%;
   border-width: 2px;
   border-color: #1D5B42;
   border-radius: 10px;
-  padding-horizontal: 15px; 
+  padding-horizontal: 16px; 
 `;
 
 export const CampoDeTexto = styled.TextInput`
@@ -48,19 +49,19 @@ export const CampoDeTexto = styled.TextInput`
   height: 100%;
   font-size: 18px;
   color: #333;
-  margin-left: 10px; 
+  margin-left: 3%; 
   outline-style: none;
 `;
 
 export const BotaoPrimario = styled.TouchableOpacity`
   width: 100%; 
-  height: 65px;
+  height: 52px;
   background-color: #1e513a;
   border-radius: 12px;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin-top: 2%;
+  margin-bottom: 3%;
   outline-style: none;
 `;
 

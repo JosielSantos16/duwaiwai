@@ -5,30 +5,31 @@ export const ConteudoPai = styled.SafeAreaView`
   background-color: #ffffff;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 5%;
 `;
 
 export const AreaLogo = styled.View`
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 6%;
 `;
 
 export const ImagemLogo = styled.Image`
-  width: 350px;
-  height: 350px;
+  width: 70%;
+  aspect-ratio: 1;
+  max-width: 400px;
 `;
 
 export const Subtitulo = styled.Text`
   font-size: 18px;
   font-weight: 600;
   color: #000000;
-  margin-bottom: 60px;
+  margin-bottom: 8%;
   text-align: center;
 `;
 
 export const BotaoIniciar = styled.TouchableOpacity`
-  width: 60%;
-  height: 60px;
+  width: 80%;
+  height: 52px;
   background-color: #1D5B42;
   border-radius: 30px;
   justify-content: center;
