@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigation } from '@react-navigation/native';
 import * as S from './styles';
-import ImagemDoMapa from '../../../assets/mapa_rio.png'; 
+import ImagemDoMapa from '../../../assets/mapa_rio.png';
 
 export default function Mapa() {
   const navegacao = useNavigation<any>();
@@ -17,11 +17,15 @@ export default function Mapa() {
 
   return (
     <S.ConteudoPai>
-      <S.FundoMapa source={ImagemDoMapa} resizeMode="cover">
-        
+      <S.FundoMapa
+        source={ImagemDoMapa}
+        resizeMode="cover"
+        imageStyle={{ borderRadius: 0 }}
+      >
+
         {niveis.map((nivel) => (
-          <S.BotaoNivel 
-            key={nivel.id} 
+          <S.BotaoNivel
+            key={nivel.id}
             style={{ top: nivel.topo, left: nivel.esquerda }}
             activeOpacity={0.5}
             onPress={() => navegacao.navigate('Selecao')}
